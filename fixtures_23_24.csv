@@ -1,0 +1,39 @@
+Date,Time,Round,Day,Venue,Result,GF,GA,Opponent,xG,xGA,Poss,Attendance,Captain,Formation,Referee
+2023-08-12,12:30,1,Sat,Home,W,2.0,1.0,Nott'ham Forest,0.8,1.2,78.0,59984.0,Martin Ødegaard,4-3-3,Michael Oliver
+2023-08-21,20:00,2,Mon,Away,W,1.0,0.0,Crystal Palace,2.0,1.0,53.0,24189.0,Martin Ødegaard,4-3-3,David Coote
+2023-08-26,15:00,3,Sat,Home,D,2.0,2.0,Fulham,3.2,0.6,71.0,59961.0,Martin Ødegaard,4-3-3,Paul Tierney
+2023-09-03,16:30,4,Sun,Home,W,3.0,1.0,Manchester Utd,2.3,0.9,55.0,60192.0,Martin Ødegaard,4-3-3,Anthony Taylor
+2023-09-17,16:30,5,Sun,Away,W,1.0,0.0,Everton,1.0,0.3,74.0,39217.0,Martin Ødegaard,4-3-3,Simon Hooper
+2023-09-24,14:00,6,Sun,Home,D,2.0,2.0,Tottenham,1.8,1.4,47.0,60156.0,Martin Ødegaard,4-3-3,Robert Jones
+2023-09-30,15:00,7,Sat,Away,W,4.0,0.0,Bournemouth,3.4,0.6,57.0,11193.0,Martin Ødegaard,4-3-3,Michael Salisbury
+2023-10-08,16:30,8,Sun,Home,W,1.0,0.0,Manchester City,0.4,0.5,49.0,60233.0,Martin Ødegaard,4-3-3,Michael Oliver
+2023-10-21,17:30,9,Sat,Away,D,2.0,2.0,Chelsea,1.0,1.3,56.0,39723.0,Martin Ødegaard,4-3-3,Chris Kavanagh
+2023-10-28,15:00,10,Sat,Home,W,5.0,0.0,Sheffield Utd,2.8,0.0,67.0,60153.0,Bukayo Saka,4-3-3,Tim Robinson
+2023-11-04,17:30,11,Sat,Away,L,0.0,1.0,Newcastle Utd,0.6,1.0,58.0,52194.0,Jorginho,4-3-3,Stuart Attwell
+2023-11-11,15:00,12,Sat,Home,W,3.0,1.0,Burnley,1.8,0.3,63.0,60232.0,Jorginho,4-3-3,Michael Oliver
+2023-11-25,17:30,13,Sat,Away,W,1.0,0.0,Brentford,1.6,1.1,64.0,17201.0,Martin Ødegaard,4-3-3,Tim Robinson
+2023-12-02,15:00,14,Sat,Home,W,2.0,1.0,Wolves,2.8,0.7,57.0,60262.0,Martin Ødegaard,4-3-3,Peter Bankes
+2023-12-05,20:15,15,Tue,Away,W,4.0,3.0,Luton Town,2.2,0.5,66.0,11031.0,Martin Ødegaard,4-3-3,Samuel Barrott
+2023-12-09,17:30,16,Sat,Away,L,0.0,1.0,Aston Villa,1.4,0.6,61.0,,Martin Ødegaard,4-3-3,Jarred Gillett
+2023-12-17,14:00,17,Sun,Home,W,2.0,0.0,Brighton,2.3,0.7,49.0,60257.0,Martin Ødegaard,4-3-3,Tim Robinson
+2023-12-23,17:30,18,Sat,Away,D,1.0,1.0,Liverpool,0.7,1.0,48.0,57548.0,Martin Ødegaard,4-3-3,Chris Kavanagh
+2023-12-28,20:15,19,Thu,Home,L,0.0,2.0,West Ham,2.7,1.4,73.0,60261.0,Martin Ødegaard,4-3-3,Michael Oliver
+2023-12-31,14:00,20,Sun,Away,L,1.0,2.0,Fulham,1.6,1.2,60.0,24444.0,Martin Ødegaard,4-3-3,Joshua Smith
+2024-01-20,12:30,21,Sat,Home,,,,Crystal Palace,,,,,,,
+2024-01-30,19:30,22,Tue,Away,,,,Nott'ham Forest,,,,,,,
+2024-02-04,16:30,23,Sun,Home,,,,Liverpool,,,,,,,
+2024-02-11,14:00,24,Sun,Away,,,,West Ham,,,,,,,
+2024-02-17,15:00,25,Sat,Away,,,,Burnley,,,,,,,
+2024-02-24,20:00,26,Sat,Home,,,,Newcastle Utd,,,,,,,
+2024-03-02,15:00,27,Sat,Away,,,,Sheffield Utd,,,,,,,
+2024-03-09,,28,Sat,Home,,,,Brentford,,,,,,,
+2024-03-16,,29,Sat,Home,,,,Chelsea,,,,,,,
+2024-03-30,,30,Sat,Away,,,,Manchester City,,,,,,,
+2024-04-02,,31,Tue,Home,,,,Luton Town,,,,,,,
+2024-04-06,,32,Sat,Away,,,,Brighton,,,,,,,
+2024-04-13,,33,Sat,Home,,,,Aston Villa,,,,,,,
+2024-04-20,,34,Sat,Away,,,,Wolves,,,,,,,
+2024-04-27,,35,Sat,Away,,,,Tottenham,,,,,,,
+2024-05-04,,36,Sat,Home,,,,Bournemouth,,,,,,,
+2024-05-11,,37,Sat,Away,,,,Manchester Utd,,,,,,,
+2024-05-19,,38,Sun,Home,,,,Everton,,,,,,,

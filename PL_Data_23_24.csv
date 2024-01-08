@@ -1,0 +1,21 @@
+Rk,Squad,MP,W,D,L,GF,GA,GD,Pts,Pts/MP,xG,xGA,xGD,xGD/90,Last 5,Attendance,Top Team Scorer,Goalkeeper
+1,Liverpool,20,13,6,1,43,18,25,45,2.25,44.1,22.6,21.5,1.08,W D D W W,46872,Mohamed Salah - 14,Alisson
+2,Aston Villa,20,13,3,4,43,27,16,42,2.1,36.0,25.6,10.3,0.52,W W D L W,28969,Ollie Watkins - 9,Emiliano Martínez
+3,Manchester City,19,12,4,3,45,21,24,40,2.11,36.8,17.8,18.9,1.0,L W D W W,47396,Erling Haaland - 14,Ederson
+4,Arsenal,20,12,4,4,37,20,17,40,2.0,36.4,16.3,20.0,1.0,L W D L L,60169,Bukayo Saka - 6,David Raya
+5,Tottenham,20,12,3,5,42,29,13,39,1.95,35.2,34.7,0.4,0.02,W W W L W,61624,Son Heung-min - 12,Guglielmo Vicario
+6,West Ham,20,10,4,6,33,30,3,34,1.7,27.7,35.3,-7.6,-0.38,L W W W D,62660,Jarrod Bowen - 11,Alphonse Areola
+7,Brighton,20,8,7,5,38,33,5,31,1.55,35.1,29.6,5.5,0.27,D L D W D,31604,João Pedro - 7,Jason Steele
+8,Manchester Utd,20,10,1,9,22,27,-5,31,1.55,29.1,32.5,-3.4,-0.17,L D L W L,73514,Scott McTominay - 5,André Onana
+9,Newcastle Utd,20,9,2,9,39,29,10,29,1.45,39.2,33.5,5.7,0.29,L W L L L,52086,Alexander Isak - 9,Nick Pope
+10,Chelsea,20,8,4,8,34,31,3,28,1.4,39.4,28.8,10.6,0.53,L W L W W,39720,Cole Palmer - 8,Robert Sánchez
+11,Wolves,20,8,4,8,30,31,-1,28,1.4,26.6,33.1,-6.5,-0.32,D L W W W,31390,Hwang Hee-chan - 10,José Sá
+12,Bournemouth,19,7,4,8,28,35,-7,25,1.32,27.0,31.4,-4.3,-0.23,W W W W L,11027,Dominic Solanke - 12,Neto
+13,Fulham,20,7,3,10,28,35,-7,24,1.2,24.4,34.3,-9.9,-0.5,W L L L W,24243,Raúl Jiménez - 5,Bernd Leno
+14,Crystal Palace,20,5,6,9,22,29,-7,21,1.05,24.6,28.6,-4.0,-0.2,L D D L W,24902,Odsonne Édouard - 6,Sam Johnstone
+15,Nott'ham Forest,20,5,5,10,24,35,-11,20,1.0,23.8,30.8,-7.0,-0.35,D L L W W,29289,Chris Wood - 7,Matt Turner
+16,Brentford,19,5,4,10,26,31,-5,19,1.0,32.6,25.2,7.3,0.39,L L L L L,17057,Bryan Mbeumo - 7,Mark Flekken
+17,Everton,20,8,2,10,24,28,-4,16,0.8,30.1,27.7,2.4,0.12,W W L L L,39086,Abdoulaye Doucouré - 6,Jordan Pickford
+18,Luton Town,19,4,3,12,23,37,-14,15,0.79,19.2,38.5,-19.3,-1.02,L L W W L,9810,Elijah Adebayo - 5,Thomas Kaminski
+19,Burnley,20,3,2,15,20,41,-21,11,0.55,17.4,34.5,-17.0,-0.85,D L W L L,21557,Lyle Foster - 4,James Trafford
+20,Sheffield Utd,20,2,3,15,15,49,-34,9,0.45,16.2,39.9,-23.7,-1.18,W L D L L,30694,"Oliver McBurnie, Cameron Archer - 3",Wes Foderingham

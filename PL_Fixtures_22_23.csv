@@ -1,0 +1,381 @@
+Time,Home,xG_h,xG_a,Away,Attendance,Venue,Referee,Home_Goals,Away_Goals
+20:00,Crystal Palace,1.2,1,Arsenal,25286,Selhurst Park,Anthony Taylor,0,2
+12:30,Fulham,1.2,1.2,Liverpool,22207,Craven Cottage,Andy Madley,2,2
+15:00,Tottenham,1.5,0.5,Southampton,61732,Tottenham Hotspur Stadium,Andre Marriner,4,1
+15:00,Newcastle Utd,1.7,0.3,Nott'ham Forest,52245,St James' Park,Simon Hooper,2,0
+15:00,Leeds United,0.8,1.3,Wolves,36347,Elland Road,Robert Jones,2,1
+15:00,Bournemouth,0.6,0.7,Aston Villa,11013,Vitality Stadium,Peter Bankes,2,0
+17:30,Everton,0.7,1.5,Chelsea,39254,Goodison Park,Craig Pawson,0,1
+14:00,Leicester City,0.6,0.8,Brentford,31794,King Power Stadium,Jarred Gillett,2,2
+14:00,Manchester Utd,1.4,1.5,Brighton,73711,Old Trafford,Paul Tierney,1,2
+16:30,West Ham,0.5,2.2,Manchester City,62443,London Stadium,Michael Oliver,0,2
+12:30,Aston Villa,2.3,1.6,Everton,41883,Villa Park,Michael Oliver,2,1
+15:00,Manchester City,1.7,0.1,Bournemouth,53453,Etihad Stadium,David Coote,4,0
+15:00,Southampton,1.2,1.8,Leeds United,30815,St. Mary's Stadium,Tony Harrington,2,2
+15:00,Wolves,0.9,1.5,Fulham,31178,Molineux Stadium,John Brooks,0,0
+15:00,Arsenal,2.7,0.5,Leicester City,60033,Emirates Stadium,Darren England,4,2
+15:00,Brighton,1.5,0.2,Newcastle Utd,31552,The American Express Community Stadium,Graham Scott,0,0
+17:30,Brentford,1.6,0.9,Manchester Utd,17051,Brentford Community Stadium,Stuart Attwell,4,0
+14:00,Nott'ham Forest,1.3,2.1,West Ham,29281,The City Ground,Robert Jones,1,0
+16:30,Chelsea,1.6,1,Tottenham,39946,Stamford Bridge,Anthony Taylor,2,2
+20:00,Liverpool,2,1,Crystal Palace,52970,Anfield,Paul Tierney,1,1
+12:30,Tottenham,1.7,0.7,Wolves,61298,Tottenham Hotspur Stadium,Simon Hooper,1,0
+15:00,Leicester City,0.3,0.9,Southampton,30850,King Power Stadium,Michael Salisbury,1,2
+15:00,Everton,1.5,1,Nott'ham Forest,39271,Goodison Park,Andre Marriner,1,1
+15:00,Crystal Palace,2.6,0.9,Aston Villa,22012,Selhurst Park,Andy Madley,3,1
+15:00,Fulham,2.4,1.8,Brentford,21798,Craven Cottage,Peter Bankes,3,2
+17:30,Bournemouth,0.3,1.3,Arsenal,10423,Vitality Stadium,Craig Pawson,0,3
+14:00,Leeds United,2.1,0.9,Chelsea,36372,Elland Road,Stuart Attwell,3,0
+14:00,West Ham,0.8,1.7,Brighton,62449,London Stadium,Anthony Taylor,0,2
+16:30,Newcastle Utd,1.8,2.1,Manchester City,52258,St James' Park,Jarred Gillett,3,3
+20:00,Manchester Utd,1.8,1.3,Liverpool,74147,Old Trafford,Michael Oliver,2,1
+12:30,Southampton,1.4,1.1,Manchester Utd,31196,St. Mary's Stadium,Andy Madley,0,1
+15:00,Manchester City,2.2,0.1,Crystal Palace,53112,Etihad Stadium,Darren England,4,2
+15:00,Brighton,2,1.8,Leeds United,30953,The American Express Community Stadium,Michael Salisbury,1,0
+15:00,Chelsea,1.8,2.5,Leicester City,39953,Stamford Bridge,Paul Tierney,2,1
+15:00,Brentford,2.1,1.1,Everton,17009,Brentford Community Stadium,John Brooks,1,1
+15:00,Liverpool,3.3,0.3,Bournemouth,53328,Anfield,Stuart Attwell,9,0
+17:30,Arsenal,2.6,0.8,Fulham,60164,Emirates Stadium,Jarred Gillett,2,1
+14:00,Wolves,0.7,1.7,Newcastle Utd,31311,Molineux Stadium,Peter Bankes,1,1
+14:00,Aston Villa,0.5,0.6,West Ham,41796,Villa Park,David Coote,0,1
+16:30,Nott'ham Forest,0.9,2.4,Tottenham,29296,The City Ground,Craig Pawson,0,2
+19:30,Fulham,0.7,1.4,Brighton,22224,Craven Cottage,Thomas Bramall,2,1
+19:30,Crystal Palace,1,1.4,Brentford,25043,Selhurst Park,Simon Hooper,1,1
+19:45,Southampton,1.1,1.1,Chelsea,31542,St. Mary's Stadium,Michael Oliver,2,1
+20:00,Leeds United,1,1,Everton,36338,Elland Road,Darren England,1,1
+19:30,Bournemouth,0.4,1.5,Wolves,10113,Vitality Stadium,Anthony Taylor,0,0
+19:30,Manchester City,3.3,0.7,Nott'ham Forest,53409,Etihad Stadium,Paul Tierney,6,0
+19:30,Arsenal,2.4,0.4,Aston Villa,60012,Emirates Stadium,Robert Jones,2,1
+19:45,West Ham,1.2,0.6,Tottenham,62450,London Stadium,Peter Bankes,1,1
+20:00,Liverpool,1.5,0.7,Newcastle Utd,53316,Anfield,Andre Marriner,2,1
+20:00,Leicester City,0.7,1.5,Manchester Utd,32226,King Power Stadium,Craig Pawson,0,1
+12:30,Everton,1.7,2.1,Liverpool,39240,Goodison Park,Anthony Taylor,0,0
+15:00,Nott'ham Forest,1.9,0.8,Bournemouth,28720,The City Ground,Michael Oliver,2,3
+15:00,Wolves,0.8,1.2,Southampton,30546,Molineux Stadium,John Brooks,1,0
+15:00,Newcastle Utd,2.8,1,Crystal Palace,51863,St James' Park,Michael Salisbury,0,0
+15:00,Brentford,2.3,1.7,Leeds United,17092,Brentford Community Stadium,Robert Jones,5,2
+15:00,Tottenham,2.9,0.7,Fulham,61641,Tottenham Hotspur Stadium,Stuart Attwell,2,1
+15:00,Chelsea,0.9,1.1,West Ham,39923,Stamford Bridge,Andy Madley,2,1
+17:30,Aston Villa,0.3,2.1,Manchester City,41830,Villa Park,Simon Hooper,1,1
+14:00,Brighton,2.6,1.4,Leicester City,31185,The American Express Community Stadium,Tony Harrington,5,2
+16:30,Manchester Utd,1.5,1.3,Arsenal,73431,Old Trafford,Paul Tierney,3,1
+20:00,Aston Villa,1.5,0.3,Southampton,40758,Villa Park,Tony Harrington,1,0
+20:00,Nott'ham Forest,1.4,0.9,Fulham,28654,The City Ground,Jarred Gillett,2,3
+12:30,Wolves,0.4,1.1,Manchester City,31578,Molineux Stadium,Anthony Taylor,0,3
+15:00,Newcastle Utd,1.9,0.7,Bournemouth,52238,St James' Park,Craig Pawson,1,1
+17:30,Tottenham,2.2,1.8,Leicester City,61450,Tottenham Hotspur Stadium,Simon Hooper,6,2
+12:00,Brentford,0.5,1.5,Arsenal,17122,Brentford Community Stadium,David Coote,0,3
+14:15,Everton,0.4,1,West Ham,39298,Goodison Park,Michael Oliver,1,0
+12:30,Arsenal,2.4,1.6,Tottenham,60278,Emirates Stadium,Anthony Taylor,3,1
+15:00,Southampton,1.7,2,Everton,30510,St. Mary's Stadium,Andre Marriner,1,2
+15:00,Crystal Palace,0.4,1.1,Chelsea,25198,Selhurst Park,Chris Kavanagh,1,2
+15:00,Liverpool,1.5,1.4,Brighton,53320,Anfield,Andy Madley,3,3
+15:00,Fulham,0.5,3.3,Newcastle Utd,22913,Craven Cottage,Darren England,1,4
+15:00,Bournemouth,0.4,0.9,Brentford,10126,Vitality Stadium,Thomas Bramall,0,0
+17:30,West Ham,0.9,0.7,Wolves,62444,London Stadium,Paul Tierney,2,0
+14:00,Manchester City,3.2,1.7,Manchester Utd,53475,Etihad Stadium,Michael Oliver,6,3
+16:30,Leeds United,0.4,2.2,Aston Villa,36582,Elland Road,Stuart Attwell,0,0
+20:00,Leicester City,1.3,1.1,Nott'ham Forest,32202,King Power Stadium,Robert Jones,4,0
+15:00,Bournemouth,1.1,1,Leicester City,10272,Vitality Stadium,Michael Salisbury,2,1
+15:00,Newcastle Utd,1.5,1.2,Brentford,52067,St James' Park,John Brooks,5,1
+15:00,Manchester City,2.4,0.2,Southampton,53365,Etihad Stadium,Andy Madley,4,0
+15:00,Chelsea,1.9,1.1,Wolves,39940,Stamford Bridge,Simon Hooper,3,0
+17:30,Brighton,0.7,0.8,Tottenham,31498,The American Express Community Stadium,Tony Harrington,0,1
+14:00,West Ham,2.4,0.7,Fulham,62407,London Stadium,Chris Kavanagh,3,1
+14:00,Crystal Palace,1.1,1,Leeds United,25042,Selhurst Park,Paul Tierney,2,1
+16:30,Arsenal,2.7,1.1,Liverpool,60059,Emirates Stadium,Michael Oliver,3,2
+19:00,Everton,0.6,1.4,Manchester Utd,39258,Goodison Park,David Coote,1,2
+20:00,Nott'ham Forest,0.3,0.7,Aston Villa,29208,The City Ground,Anthony Taylor,1,1
+20:00,Brentford,1.5,1.9,Brighton,17016,Brentford Community Stadium,Michael Salisbury,2,0
+12:30,Leicester City,1,0.4,Crystal Palace,31298,King Power Stadium,Andy Madley,0,0
+15:00,Fulham,2.1,1,Bournemouth,22541,Craven Cottage,Graham Scott,2,2
+15:00,Wolves,1.3,1.5,Nott'ham Forest,31554,Molineux Stadium,Thomas Bramall,1,0
+17:30,Tottenham,2.2,0.4,Everton,61812,Tottenham Hotspur Stadium,Paul Tierney,2,0
+14:00,Southampton,0.5,1.7,West Ham,29159,St. Mary's Stadium,Peter Bankes,1,1
+14:00,Aston Villa,1.8,0.9,Chelsea,41754,Villa Park,Robert Jones,0,2
+14:00,Leeds United,1.8,0.5,Arsenal,36700,Elland Road,Chris Kavanagh,0,1
+14:00,Manchester Utd,0.8,0.8,Newcastle Utd,73726,Old Trafford,Craig Pawson,0,0
+16:30,Liverpool,2.1,1,Manchester City,53286,Anfield,Anthony Taylor,1,0
+19:30,Brighton,1.7,0.1,Nott'ham Forest,31463,The American Express Community Stadium,Darren England,0,0
+20:15,Crystal Palace,1.2,0.8,Wolves,25125,Selhurst Park,David Coote,2,1
+19:30,Bournemouth,1,1,Southampton,10405,Vitality Stadium,John Brooks,0,1
+19:30,Brentford,1.3,0.9,Chelsea,17118,Brentford Community Stadium,Jarred Gillett,0,0
+19:30,Liverpool,1.7,1.7,West Ham,52982,Anfield,Stuart Attwell,1,0
+19:30,Newcastle Utd,1.5,0.2,Everton,52247,St James' Park,Tony Harrington,1,0
+20:15,Manchester Utd,1.5,0.6,Tottenham,73677,Old Trafford,Simon Hooper,2,0
+19:30,Fulham,2.1,1.2,Aston Villa,23508,Craven Cottage,Michael Oliver,3,0
+20:15,Leicester City,0.8,1.3,Leeds United,30814,King Power Stadium,Peter Bankes,2,0
+12:30,Nott'ham Forest,1.9,1.6,Liverpool,29245,The City Ground,Paul Tierney,1,0
+15:00,Everton,1.4,0.9,Crystal Palace,38939,Goodison Park,Simon Hooper,3,0
+15:00,Manchester City,1.6,0.5,Brighton,53223,Etihad Stadium,Craig Pawson,3,1
+17:30,Chelsea,1.1,0.8,Manchester Utd,39503,Stamford Bridge,Stuart Attwell,1,1
+14:00,Aston Villa,2.8,0.9,Brentford,41693,Villa Park,Darren England,4,0
+14:00,Wolves,2.1,0.9,Leicester City,31425,Molineux Stadium,Michael Oliver,0,4
+14:00,Leeds United,1.6,1.8,Fulham,36447,Elland Road,Anthony Taylor,2,3
+14:00,Southampton,0.7,1,Arsenal,31145,St. Mary's Stadium,Robert Jones,1,1
+16:30,Tottenham,1.6,1.2,Newcastle Utd,61726,Tottenham Hotspur Stadium,Jarred Gillett,1,2
+20:00,West Ham,1.9,0.4,Bournemouth,62447,London Stadium,David Coote,2,0
+12:30,Leicester City,0.7,1,Manchester City,32223,King Power Stadium,Robert Jones,0,1
+15:00,Brentford,1.4,0.6,Wolves,17051,Brentford Community Stadium,Robert Madley,1,1
+15:00,Crystal Palace,0.9,1.3,Southampton,25130,Selhurst Park,Michael Salisbury,1,0
+15:00,Newcastle Utd,3.4,0.4,Aston Villa,52233,St James' Park,Paul Tierney,4,0
+15:00,Brighton,2.4,1.4,Chelsea,31746,The American Express Community Stadium,Andy Madley,4,1
+15:00,Bournemouth,0.5,2,Tottenham,10430,Vitality Stadium,Anthony Taylor,2,3
+17:30,Fulham,1.9,0.9,Everton,23534,Craven Cottage,John Brooks,0,0
+19:45,Liverpool,1.7,1.8,Leeds United,53274,Anfield,Michael Oliver,1,2
+14:00,Arsenal,2.3,0.4,Nott'ham Forest,60263,Emirates Stadium,Simon Hooper,5,0
+16:15,Manchester Utd,1.2,1.1,West Ham,73682,Old Trafford,Chris Kavanagh,1,0
+15:00,Nott'ham Forest,1.5,1.5,Brentford,28869,The City Ground,Andre Marriner,2,2
+15:00,Leeds United,2.2,1.5,Bournemouth,36304,Elland Road,Tony Harrington,4,3
+15:00,Manchester City,2.1,1,Fulham,52395,Etihad Stadium,Darren England,2,1
+15:00,Wolves,1.2,1.5,Brighton,30732,Molineux Stadium,Graham Scott,2,3
+17:30,Everton,1.2,2.3,Leicester City,39206,Goodison Park,David Coote,0,2
+12:00,Chelsea,0.3,2.1,Arsenal,40142,Stamford Bridge,Michael Oliver,0,1
+14:00,West Ham,0.3,1,Crystal Palace,62451,London Stadium,Paul Tierney,1,2
+14:00,Southampton,1.7,0.9,Newcastle Utd,30402,St. Mary's Stadium,Stuart Attwell,1,4
+14:00,Aston Villa,0.6,0.5,Manchester Utd,42058,Villa Park,Anthony Taylor,3,1
+16:30,Tottenham,1.2,1.2,Liverpool,62008,Tottenham Hotspur Stadium,Andy Madley,1,2
+12:30,Manchester City,1.6,1.3,Brentford,52786,Etihad Stadium,Peter Bankes,1,2
+15:00,Tottenham,1.8,1.1,Leeds United,61667,Tottenham Hotspur Stadium,Michael Salisbury,4,3
+15:00,Liverpool,1.9,1.1,Southampton,53331,Anfield,Simon Hooper,3,1
+15:00,Bournemouth,2.4,0.8,Everton,10382,Vitality Stadium,Craig Pawson,3,0
+15:00,West Ham,1.4,1.8,Leicester City,62459,London Stadium,Jarred Gillett,0,2
+15:00,Nott'ham Forest,1.1,1.2,Crystal Palace,29045,The City Ground,John Brooks,1,0
+17:30,Newcastle Utd,1,0.3,Chelsea,52264,St James' Park,Robert Jones,1,0
+19:45,Wolves,0.7,2.1,Arsenal,34624,Molineux Stadium,Stuart Attwell,0,2
+14:00,Brighton,0.6,1.5,Aston Villa,31581,The American Express Community Stadium,Chris Kavanagh,1,2
+16:30,Fulham,1.4,2.5,Manchester Utd,24246,Craven Cottage,Paul Tierney,1,2
+12:30,Brentford,2,1.1,Tottenham,17137,Brentford Community Stadium,David Coote,2,2
+15:00,Southampton,1.9,0.6,Brighton,31010,St. Mary's Stadium,Robert Jones,1,3
+15:00,Leicester City,0.5,1.9,Newcastle Utd,32185,King Power Stadium,Jarred Gillett,0,3
+15:00,Crystal Palace,0.4,2.5,Fulham,25176,Selhurst Park,Andy Madley,0,3
+15:00,Everton,1.7,0.8,Wolves,39252,Goodison Park,Craig Pawson,1,2
+17:30,Aston Villa,1.4,2.7,Liverpool,42085,Villa Park,Paul Tierney,1,3
+20:00,Arsenal,2.1,1,West Ham,60125,Emirates Stadium,Michael Oliver,3,1
+17:30,Chelsea,1.8,0.5,Bournemouth,40046,Stamford Bridge,Simon Hooper,2,0
+20:00,Manchester Utd,2.4,0.7,Nott'ham Forest,73608,Old Trafford,Anthony Taylor,3,0
+20:00,Leeds United,0.6,4.3,Manchester City,36889,Elland Road,Stuart Attwell,1,3
+19:45,West Ham,1.3,1.6,Brentford,62467,London Stadium,Darren England,0,2
+20:00,Liverpool,2.2,1,Leicester City,53343,Anfield,Craig Pawson,2,1
+12:30,Wolves,0.7,2,Manchester Utd,31658,Molineux Stadium,Robert Jones,0,1
+15:00,Newcastle Utd,2.2,0.4,Leeds United,52211,St James' Park,Simon Hooper,0,0
+15:00,Fulham,1.5,0.8,Southampton,24344,Craven Cottage,Graham Scott,2,1
+15:00,Manchester City,1.7,0.1,Everton,53444,Etihad Stadium,Andy Madley,1,1
+15:00,Bournemouth,0.6,1.6,Crystal Palace,9972,Vitality Stadium,Andre Marriner,0,2
+17:30,Brighton,1.2,2.9,Arsenal,31647,The American Express Community Stadium,Anthony Taylor,2,4
+14:00,Tottenham,0.7,1,Aston Villa,61651,Tottenham Hotspur Stadium,John Brooks,0,2
+16:30,Nott'ham Forest,1.4,0.9,Chelsea,29229,The City Ground,Peter Bankes,1,1
+17:30,Brentford,1.7,2,Liverpool,17163,Brentford Community Stadium,Stuart Attwell,3,1
+19:45,Leicester City,1.7,1.7,Fulham,30813,King Power Stadium,Darren Bond,0,1
+19:45,Everton,1.3,2.2,Brighton,39103,Goodison Park,Andre Marriner,1,4
+19:45,Arsenal,1.1,1,Newcastle Utd,60319,Emirates Stadium,Andy Madley,0,0
+20:00,Manchester Utd,2.2,0.6,Bournemouth,73322,Old Trafford,Michael Salisbury,3,0
+19:30,Southampton,0.5,1.4,Nott'ham Forest,30150,St. Mary's Stadium,Thomas Bramall,0,1
+19:45,Leeds United,1.6,1.4,West Ham,36173,Elland Road,David Coote,2,2
+20:00,Aston Villa,1.8,0.9,Wolves,39978,Villa Park,Jarred Gillett,1,1
+20:00,Crystal Palace,0.8,1.4,Tottenham,25132,Selhurst Park,Michael Oliver,0,4
+20:00,Chelsea,0.4,2,Manchester City,39998,Stamford Bridge,Paul Tierney,0,1
+20:00,Fulham,1,2.1,Chelsea,24460,Craven Cottage,David Coote,2,1
+20:00,Aston Villa,1.2,2.4,Leeds United,42008,Villa Park,Michael Oliver,2,1
+12:30,Manchester Utd,1.7,0.6,Manchester City,75546,Old Trafford,Stuart Attwell,2,1
+15:00,Everton,1.4,1.2,Southampton,39305,Goodison Park,John Brooks,1,2
+15:00,Wolves,0.9,1.1,West Ham,31511,Molineux Stadium,Simon Hooper,1,0
+15:00,Nott'ham Forest,2.4,1,Leicester City,29301,The City Ground,Paul Tierney,2,0
+15:00,Brighton,1.9,1,Liverpool,31645,The American Express Community Stadium,Darren England,3,0
+17:30,Brentford,1.4,0.6,Bournemouth,17031,Brentford Community Stadium,Jarred Gillett,2,0
+14:00,Chelsea,1.5,0.7,Crystal Palace,40075,Stamford Bridge,Peter Bankes,1,0
+14:00,Newcastle Utd,2.2,1.1,Fulham,52247,St James' Park,Robert Jones,1,0
+16:30,Tottenham,1.6,1.8,Arsenal,61870,Tottenham Hotspur Stadium,Craig Pawson,0,2
+20:00,Crystal Palace,0.5,2.1,Manchester Utd,23343,Selhurst Park,Robert Jones,1,1
+20:00,Manchester City,2.3,0.8,Tottenham,53088,Etihad Stadium,Simon Hooper,4,2
+12:30,Liverpool,1.4,1.6,Chelsea,53126,Anfield,Michael Oliver,0,0
+15:00,Bournemouth,1.4,1.9,Nott'ham Forest,10248,Vitality Stadium,Andy Madley,1,1
+15:00,Southampton,0.6,1.4,Aston Villa,30158,St. Mary's Stadium,Michael Salisbury,0,1
+15:00,Leicester City,0.9,1.7,Brighton,32056,King Power Stadium,Thomas Bramall,2,2
+15:00,West Ham,2.2,0.5,Everton,62470,London Stadium,Stuart Attwell,2,0
+17:30,Crystal Palace,0.3,1.2,Newcastle Utd,25350,Selhurst Park,Craig Pawson,0,0
+14:00,Manchester City,2.8,0.8,Wolves,53282,Etihad Stadium,David Coote,3,0
+14:00,Leeds United,0.5,0.4,Brentford,36260,Elland Road,Peter Bankes,0,0
+16:30,Arsenal,3.1,0.4,Manchester Utd,60325,Emirates Stadium,Anthony Taylor,3,2
+20:00,Fulham,1,0.9,Tottenham,24190,Craven Cottage,Paul Tierney,0,1
+20:00,Chelsea,1.3,0.6,Fulham,40041,Stamford Bridge,Stuart Attwell,0,0
+12:30,Everton,1.7,0.9,Arsenal,39314,Goodison Park,David Coote,1,0
+15:00,Aston Villa,1.7,2.6,Leicester City,42055,Villa Park,Darren England,2,4
+15:00,Wolves,2,1.8,Liverpool,31664,Molineux Stadium,Paul Tierney,3,0
+15:00,Manchester Utd,2,1.3,Crystal Palace,73420,Old Trafford,Andre Marriner,2,1
+15:00,Brighton,2.2,1.1,Bournemouth,31600,The American Express Community Stadium,Craig Pawson,1,0
+15:00,Brentford,2.2,0.7,Southampton,17051,Brentford Community Stadium,Darren Bond,3,0
+17:30,Newcastle Utd,1,1,West Ham,52256,St James' Park,Peter Bankes,1,1
+14:00,Nott'ham Forest,0.4,0.9,Leeds United,29363,The City Ground,Robert Jones,1,0
+16:30,Tottenham,1.4,1.3,Manchester City,61747,Tottenham Hotspur Stadium,Andy Madley,1,0
+20:00,Manchester Utd,2,0.6,Leeds United,73456,Old Trafford,Simon Hooper,2,2
+12:30,West Ham,1.3,1.1,Chelsea,62471,London Stadium,Craig Pawson,1,1
+15:00,Leicester City,1.7,1.3,Tottenham,32184,King Power Stadium,Michael Salisbury,4,1
+15:00,Crystal Palace,1.1,2.5,Brighton,24827,Selhurst Park,Michael Oliver,1,1
+15:00,Arsenal,1.6,2,Brentford,60254,Emirates Stadium,Peter Bankes,1,1
+15:00,Southampton,1.1,0.8,Wolves,29751,St. Mary's Stadium,Jarred Gillett,1,2
+15:00,Fulham,1.5,0.7,Nott'ham Forest,24244,Craven Cottage,Andy Madley,2,0
+17:30,Bournemouth,1.5,1.3,Newcastle Utd,10419,Vitality Stadium,Stuart Attwell,1,1
+14:00,Leeds United,1.8,1.1,Manchester Utd,36919,Elland Road,Paul Tierney,0,2
+16:30,Manchester City,3.3,0.3,Aston Villa,53392,Etihad Stadium,Robert Jones,3,1
+20:00,Liverpool,2.3,0.4,Everton,53027,Anfield,Simon Hooper,2,0
+19:30,Arsenal,1.6,1.8,Manchester City,60276,Emirates Stadium,Anthony Taylor,1,3
+12:30,Aston Villa,0.5,3.2,Arsenal,42066,Villa Park,Simon Hooper,2,4
+15:00,Brighton,2.2,0.3,Fulham,31619,The American Express Community Stadium,Darren England,0,1
+15:00,Nott'ham Forest,0.9,2.4,Manchester City,29365,The City Ground,Graham Scott,1,1
+15:00,Chelsea,1.6,0.6,Southampton,40152,Stamford Bridge,David Coote,0,1
+15:00,Everton,1.4,0.5,Leeds United,39232,Goodison Park,Andy Madley,1,0
+15:00,Wolves,1.3,1.1,Bournemouth,31222,Molineux Stadium,Michael Salisbury,0,1
+15:00,Brentford,0.9,1.1,Crystal Palace,17122,Brentford Community Stadium,Paul Tierney,1,1
+17:30,Newcastle Utd,2,1.9,Liverpool,52758,St James' Park,Anthony Taylor,0,2
+14:00,Manchester Utd,4.4,1.6,Leicester City,73578,Old Trafford,Stuart Attwell,3,0
+16:30,Tottenham,1.5,0.5,West Ham,61476,Tottenham Hotspur Stadium,Michael Oliver,2,0
+20:00,Fulham,0.5,0.8,Wolves,24399,Craven Cottage,Michael Oliver,1,1
+15:00,Leicester City,0,0.7,Arsenal,32227,King Power Stadium,Craig Pawson,0,1
+15:00,Everton,1.6,1.9,Aston Villa,39309,Goodison Park,Anthony Taylor,0,2
+15:00,West Ham,2.7,0.4,Nott'ham Forest,62469,London Stadium,Jarred Gillett,4,0
+15:00,Leeds United,0.9,0.4,Southampton,36641,Elland Road,Peter Bankes,1,0
+17:30,Bournemouth,1,2.4,Manchester City,10481,Vitality Stadium,Paul Tierney,1,4
+19:45,Crystal Palace,0.7,0.9,Liverpool,25842,Selhurst Park,Darren England,0,0
+13:30,Tottenham,0.8,0.4,Chelsea,61613,Tottenham Hotspur Stadium,Stuart Attwell,2,0
+19:45,Arsenal,2.6,1.2,Everton,60213,Emirates Stadium,Michael Oliver,4,0
+20:00,Liverpool,2.6,0.8,Wolves,53259,Anfield,Paul Tierney,2,0
+12:30,Manchester City,1.3,0.4,Newcastle Utd,53419,Etihad Stadium,Simon Hooper,2,0
+15:00,Arsenal,2.1,1.3,Bournemouth,60222,Emirates Stadium,Chris Kavanagh,3,2
+15:00,Aston Villa,1.2,0.2,Crystal Palace,41893,Villa Park,Craig Pawson,1,0
+15:00,Chelsea,1.5,1,Leeds United,39905,Stamford Bridge,Michael Oliver,1,0
+15:00,Brighton,3.5,0.3,West Ham,31523,The American Express Community Stadium,Stuart Attwell,4,0
+15:00,Wolves,0.5,1.2,Tottenham,31585,Molineux Stadium,Tim Robinson,1,0
+17:30,Southampton,1.4,1.9,Leicester City,30139,St. Mary's Stadium,Robert Jones,1,0
+14:00,Nott'ham Forest,0.8,1.7,Everton,29353,The City Ground,John Brooks,2,2
+16:30,Liverpool,2.8,0.8,Manchester Utd,53001,Anfield,Andy Madley,7,0
+20:00,Brentford,2.2,1.4,Fulham,17025,Brentford Community Stadium,Anthony Taylor,3,2
+12:30,Bournemouth,0.9,1.7,Liverpool,10536,Vitality Stadium,John Brooks,1,0
+15:00,Leeds United,0.9,2.7,Brighton,36471,Elland Road,Paul Tierney,2,2
+15:00,Everton,1,2,Brentford,39274,Goodison Park,Simon Hooper,1,0
+15:00,Leicester City,2.4,1.6,Chelsea,32170,King Power Stadium,Andre Marriner,1,3
+15:00,Tottenham,2,1.5,Nott'ham Forest,61460,Tottenham Hotspur Stadium,Craig Pawson,3,1
+17:30,Crystal Palace,0.2,2.1,Manchester City,25844,Selhurst Park,Robert Jones,0,1
+14:00,Manchester Utd,0.8,1,Southampton,73439,Old Trafford,Anthony Taylor,0,0
+14:00,Fulham,0.8,2.3,Arsenal,24426,Craven Cottage,David Coote,0,3
+14:00,West Ham,2.1,1.5,Aston Villa,62472,London Stadium,Chris Kavanagh,1,1
+16:30,Newcastle Utd,1.8,1.1,Wolves,52240,St James' Park,Andy Madley,2,1
+19:30,Southampton,0.5,1.9,Brentford,30438,St. Mary's Stadium,Michael Salisbury,0,2
+19:30,Brighton,0.6,1.1,Crystal Palace,30933,The American Express Community Stadium,Peter Bankes,1,0
+20:00,Nott'ham Forest,0.4,2.4,Newcastle Utd,29362,The City Ground,Paul Tierney,1,2
+15:00,Wolves,2.7,1.6,Leeds United,31570,Molineux Stadium,Michael Salisbury,2,4
+15:00,Brentford,0.6,1.3,Leicester City,17006,Brentford Community Stadium,Darren Bond,1,1
+15:00,Aston Villa,3.5,1.3,Bournemouth,41021,Villa Park,Robert Jones,3,0
+15:00,Southampton,2.4,2.3,Tottenham,30157,St. Mary's Stadium,Simon Hooper,3,3
+17:30,Chelsea,2.3,1.2,Everton,40025,Stamford Bridge,Darren England,2,2
+14:00,Arsenal,1.6,0.8,Crystal Palace,60247,Emirates Stadium,Stuart Attwell,4,1
+12:30,Manchester City,2.9,0.3,Liverpool,52877,Etihad Stadium,Simon Hooper,4,1
+15:00,Arsenal,3.8,0.7,Leeds United,60283,Emirates Stadium,Darren England,4,1
+15:00,Nott'ham Forest,1.3,0.5,Wolves,29368,The City Ground,Chris Kavanagh,1,1
+15:00,Brighton,4.2,1.6,Brentford,31493,The American Express Community Stadium,Michael Oliver,3,3
+15:00,Crystal Palace,2.3,0.2,Leicester City,25147,Selhurst Park,Tim Robinson,2,1
+15:00,Bournemouth,2.6,0.8,Fulham,10305,Vitality Stadium,Peter Bankes,2,1
+17:30,Chelsea,2.1,0.9,Aston Villa,40082,Stamford Bridge,Andy Madley,0,2
+14:00,West Ham,1.4,0.3,Southampton,62498,London Stadium,Paul Tierney,1,0
+16:30,Newcastle Utd,3.7,0.4,Manchester Utd,52268,St James' Park,Stuart Attwell,2,0
+20:00,Everton,0.9,1.4,Tottenham,39294,Goodison Park,David Coote,1,1
+19:45,Leeds United,1.8,0.8,Nott'ham Forest,36740,Elland Road,Robert Jones,2,1
+19:45,Bournemouth,1.7,2.7,Brighton,10266,Vitality Stadium,Darren Bond,0,2
+19:45,Leicester City,0.5,1,Aston Villa,32087,King Power Stadium,Graham Scott,1,2
+20:00,Chelsea,2.2,0.3,Liverpool,40093,Stamford Bridge,Anthony Taylor,0,0
+20:00,West Ham,1,3.3,Newcastle Utd,62481,London Stadium,Craig Pawson,1,5
+20:00,Manchester Utd,1.2,0.7,Brentford,73309,Old Trafford,John Brooks,1,0
+12:30,Manchester Utd,3.4,1,Everton,73509,Old Trafford,Michael Oliver,2,0
+15:00,Fulham,0.7,1.1,West Ham,24491,Craven Cottage,Jarred Gillett,0,1
+15:00,Aston Villa,1.3,0.2,Nott'ham Forest,42076,Villa Park,Anthony Taylor,2,0
+15:00,Leicester City,0.7,2,Bournemouth,32094,King Power Stadium,David Coote,0,1
+15:00,Brentford,2.6,1.3,Newcastle Utd,17107,Brentford Community Stadium,Chris Kavanagh,1,2
+15:00,Wolves,0.6,1.1,Chelsea,31614,Molineux Stadium,Peter Bankes,1,0
+15:00,Tottenham,0.8,1.4,Brighton,61405,Tottenham Hotspur Stadium,Stuart Attwell,2,1
+17:30,Southampton,0.4,2.9,Manchester City,30963,St. Mary's Stadium,Robert Jones,1,4
+14:00,Leeds United,0.9,3,Crystal Palace,36427,Elland Road,Simon Hooper,1,5
+16:30,Liverpool,3.9,1.4,Arsenal,53267,Anfield,Paul Tierney,2,2
+12:30,Aston Villa,1.9,0.5,Newcastle Utd,42055,Villa Park,John Brooks,3,0
+15:00,Chelsea,0.5,2.9,Brighton,40126,Stamford Bridge,Robert Jones,1,2
+15:00,Southampton,0.8,0.9,Crystal Palace,30309,St. Mary's Stadium,Michael Oliver,0,2
+15:00,Wolves,0.8,1.1,Brentford,30769,Molineux Stadium,Paul Tierney,2,0
+15:00,Tottenham,2.2,1.3,Bournemouth,61369,Tottenham Hotspur Stadium,Andy Madley,2,3
+15:00,Everton,1.4,1.8,Fulham,39241,Goodison Park,Anthony Taylor,1,3
+17:30,Manchester City,1.6,2.3,Leicester City,53329,Etihad Stadium,Darren England,3,1
+14:00,West Ham,1.8,2.7,Arsenal,62481,London Stadium,David Coote,2,2
+16:30,Nott'ham Forest,0.7,3.5,Manchester Utd,29435,The City Ground,Simon Hooper,0,2
+20:00,Leeds United,1.4,2.7,Liverpool,36657,Elland Road,Craig Pawson,1,6
+20:00,Arsenal,2.5,1.3,Southampton,60175,Emirates Stadium,Simon Hooper,3,3
+12:30,Fulham,1.7,0.8,Leeds United,24356,Craven Cottage,Peter Bankes,2,1
+15:00,Crystal Palace,0.5,0.4,Everton,25202,Selhurst Park,John Brooks,0,0
+15:00,Brentford,2.7,1.5,Aston Villa,17098,Brentford Community Stadium,Michael Salisbury,1,1
+15:00,Liverpool,2.8,0.9,Nott'ham Forest,53254,Anfield,Michael Oliver,3,2
+15:00,Leicester City,2.4,0.9,Wolves,32053,King Power Stadium,Andy Madley,2,1
+14:00,Bournemouth,1.5,2.4,West Ham,10465,Vitality Stadium,Anthony Taylor,0,4
+14:00,Newcastle Utd,3.7,1,Tottenham,52252,St James' Park,David Coote,6,1
+19:30,Wolves,1.4,0.8,Crystal Palace,30294,Molineux Stadium,Robert Jones,2,0
+19:45,Aston Villa,1,0.1,Fulham,41046,Villa Park,Thomas Bramall,1,0
+20:00,Leeds United,1.5,2.1,Leicester City,36666,Elland Road,Paul Tierney,1,1
+19:30,Nott'ham Forest,2.4,2.3,Brighton,28808,The City Ground,Jarred Gillett,3,1
+19:45,Chelsea,1.3,1.1,Brentford,39929,Stamford Bridge,Andy Madley,0,2
+19:45,West Ham,0.8,1.9,Liverpool,62473,London Stadium,Chris Kavanagh,1,2
+20:00,Manchester City,2.5,0.5,Arsenal,53482,Etihad Stadium,Michael Oliver,4,1
+19:45,Everton,0.9,2.4,Newcastle Utd,39248,Goodison Park,Andre Marriner,1,4
+19:45,Southampton,0.5,0.9,Bournemouth,30414,St. Mary's Stadium,Darren England,0,1
+20:15,Tottenham,2.5,2,Manchester Utd,61586,Tottenham Hotspur Stadium,Anthony Taylor,2,2
+12:30,Crystal Palace,2.1,1.7,West Ham,25148,Selhurst Park,Craig Pawson,4,3
+15:00,Brighton,3.3,0.8,Wolves,31584,The American Express Community Stadium,David Coote,6,0
+15:00,Brentford,1.6,0.7,Nott'ham Forest,17080,Brentford Community Stadium,Peter Bankes,2,1
+14:00,Manchester Utd,1.2,0.6,Aston Villa,73592,Old Trafford,Jarred Gillett,1,0
+14:00,Bournemouth,1.9,1.6,Leeds United,10434,Vitality Stadium,Chris Kavanagh,4,1
+14:00,Newcastle Utd,4.3,0.8,Southampton,52234,St James' Park,Anthony Taylor,3,1
+14:00,Fulham,0.2,2.5,Manchester City,24498,Craven Cottage,Simon Hooper,1,2
+16:30,Liverpool,2.2,2,Tottenham,53275,Anfield,Paul Tierney,4,3
+20:00,Leicester City,3.4,3.1,Everton,32173,King Power Stadium,Michael Oliver,2,2
+20:00,Arsenal,1.7,0.8,Chelsea,60144,Emirates Stadium,Robert Jones,3,1
+20:00,Liverpool,1.8,0.9,Fulham,52602,Anfield,Stuart Attwell,1,0
+20:00,Manchester City,2.3,0.4,West Ham,53305,Etihad Stadium,John Brooks,3,0
+20:00,Brighton,2.3,1.4,Manchester Utd,31577,The American Express Community Stadium,Andre Marriner,1,0
+15:00,Tottenham,0.9,0.4,Crystal Palace,61093,Tottenham Hotspur Stadium,Darren England,1,0
+15:00,Wolves,0.8,1.5,Aston Villa,31641,Molineux Stadium,Stuart Attwell,1,0
+15:00,Bournemouth,1.2,1.3,Chelsea,10357,Vitality Stadium,John Brooks,1,3
+15:00,Manchester City,2.6,0.2,Leeds United,53406,Etihad Stadium,Andy Madley,2,1
+17:30,Liverpool,2.2,0.2,Brentford,52838,Anfield,Anthony Taylor,1,0
+16:30,Newcastle Utd,1.3,1.3,Arsenal,50267,St James' Park,Chris Kavanagh,0,2
+19:00,West Ham,1.3,1.2,Manchester Utd,62477,London Stadium,Peter Bankes,1,0
+15:00,Fulham,1.6,2.8,Leicester City,24442,Craven Cottage,Robert Jones,5,3
+17:30,Brighton,3.2,2.3,Everton,31567,The American Express Community Stadium,Simon Hooper,1,5
+20:00,Nott'ham Forest,1.8,3.1,Southampton,29154,The City Ground,Michael Oliver,4,3
+12:30,Leeds United,2.1,2.4,Newcastle Utd,36955,Elland Road,Simon Hooper,2,2
+15:00,Aston Villa,1.2,1.4,Tottenham,42164,Villa Park,Peter Bankes,2,1
+15:00,Chelsea,1.2,1.3,Nott'ham Forest,40030,Stamford Bridge,Paul Tierney,2,2
+15:00,Crystal Palace,1.5,0.3,Bournemouth,25034,Selhurst Park,Michael Salisbury,2,0
+15:00,Southampton,0.4,1.4,Fulham,28978,St. Mary's Stadium,Thomas Bramall,0,2
+15:00,Manchester Utd,3.2,0.3,Wolves,73570,Old Trafford,John Brooks,2,0
+14:00,Everton,1.6,0.8,Manchester City,39376,Goodison Park,Anthony Taylor,0,3
+14:00,Brentford,3.4,0.2,West Ham,17075,Brentford Community Stadium,Michael Oliver,2,0
+16:30,Arsenal,0.9,1.7,Brighton,60139,Emirates Stadium,Andy Madley,0,3
+20:00,Leicester City,0.4,2.2,Liverpool,32225,King Power Stadium,Craig Pawson,0,3
+19:30,Newcastle Utd,3.6,0.5,Brighton,52122,St James' Park,Robert Jones,4,1
+12:30,Tottenham,1.8,1.3,Brentford,61514,Tottenham Hotspur Stadium,Jarred Gillett,1,3
+15:00,Liverpool,0.7,1.3,Aston Villa,53306,Anfield,John Brooks,1,1
+15:00,Fulham,1.7,1.6,Crystal Palace,24356,Craven Cottage,Joshua Smith,2,2
+15:00,Bournemouth,1,1.4,Manchester Utd,10240,Vitality Stadium,Chris Kavanagh,0,1
+15:00,Wolves,1.6,2,Everton,31684,Molineux Stadium,David Coote,1,1
+17:30,Nott'ham Forest,0.6,0.6,Arsenal,29514,The City Ground,Anthony Taylor,1,0
+13:30,West Ham,2.1,0.9,Leeds United,62478,London Stadium,Peter Bankes,3,1
+14:00,Brighton,2.5,0.6,Southampton,31507,The American Express Community Stadium,Paul Tierney,3,1
+16:00,Manchester City,1.2,1.2,Chelsea,53490,Etihad Stadium,Michael Oliver,1,0
+20:00,Newcastle Utd,2.1,0.1,Leicester City,52152,St James' Park,Andre Marriner,0,0
+20:00,Brighton,2.2,1.8,Manchester City,31388,The American Express Community Stadium,Simon Hooper,1,1
+20:00,Manchester Utd,5.2,1.9,Chelsea,73561,Old Trafford,Stuart Attwell,4,1
+16:30,Crystal Palace,1.4,0.5,Nott'ham Forest,25198,Selhurst Park,Thomas Bramall,1,1
+16:30,Chelsea,2.2,1.7,Newcastle Utd,40130,Stamford Bridge,Jarred Gillett,1,1
+16:30,Manchester Utd,2.9,1.8,Fulham,73465,Old Trafford,Robert Jones,2,1
+16:30,Arsenal,2.8,0.5,Wolves,60095,Emirates Stadium,Andre Marriner,5,0
+16:30,Southampton,1.8,4,Liverpool,31129,St. Mary's Stadium,Darren England,4,4
+16:30,Everton,1,0.5,Bournemouth,39201,Goodison Park,Stuart Attwell,1,0
+16:30,Leicester City,1.4,1.4,West Ham,32183,King Power Stadium,Simon Hooper,2,1
+16:30,Aston Villa,2.8,1.4,Brighton,,Villa Park,David Coote,2,1
+16:30,Leeds United,1.5,2.2,Tottenham,36871,Elland Road,Anthony Taylor,1,4
+16:30,Brentford,1.3,1.6,Manchester City,17120,Brentford Community Stadium,John Brooks,1,0
