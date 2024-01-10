@@ -118,10 +118,10 @@ GROUP BY Away
 
 --Compared to the rest of the league
 
-SELECT Home, 
+SELECT COUNT(*) OVER (ORDER BY ROUND((CAST(xG_h AS FLOAT) + CAST(xG_a AS FLOAT))/(HM.Games + AW.Games), 2) DESC) AS Rank, Home, 
 	ROUND((CAST(Goals_h AS FLOAT) + CAST(Goals_a AS FLOAT))/(HM.Games + AW.Games), 2) AS 'G/GAME', 
 	ROUND((CAST(xG_h AS FLOAT) + CAST(xG_a AS FLOAT))/(HM.Games + AW.Games), 2) AS 'XG/GAME',
-	ROUND(ROUND((CAST(Goals_h AS FLOAT) + CAST(Goals_a AS FLOAT))/(HM.Games + AW.Games), 2) - (ROUND((CAST(xG_h AS FLOAT) + CAST(xG_a AS FLOAT))/(HM.Games + AW.Games), 2)), 2) AS XG_OVERPERFORMANCE
+	ROUND(((Goals_h + Goals_a) - (xG_h + xG_a)), 2) AS XG_OVERPERFORMANCE 
 FROM (
 SELECT Home, COUNT(Home) as Games, SUM(Home_Goals) AS Goals_h, SUM(xG_h) AS xG_h
 FROM PL_Fixtures_22_23
@@ -132,7 +132,7 @@ SELECT Away, COUNT(Away) as Games, SUM(Away_Goals) AS Goals_a, SUM(xG_a) AS xG_a
 FROM PL_Fixtures_22_23
 GROUP BY Away
 ) AS AW ON HM.Home = AW.Away
-ORDER BY XG_OVERPERFORMANCE DESC;
+ORDER BY [XG/GAME] DESC;
 
 --Last season
 --Arsenal's 2.32 Goals per game ranked 2nd last season, HOWEVER their XG/Game of 1.89 ranks 5th. They also recorded the highest xG overperformance in the league with an
@@ -142,7 +142,7 @@ ORDER BY XG_OVERPERFORMANCE DESC;
 SELECT COUNT(*) OVER (ORDER BY  ROUND((CAST(xG_h AS FLOAT) + CAST(xG_a AS FLOAT)) / (HM.Games + AW.Games), 2) DESC) AS Rank, Home, 
 	ROUND((CAST(Goals_h AS FLOAT) + CAST(Goals_a AS FLOAT)) / (HM.Games + AW.Games), 2)  AS 'G/GAME',
     ROUND((CAST(xG_h AS FLOAT) + CAST(xG_a AS FLOAT)) / (HM.Games + AW.Games), 2) AS 'XG/GAME',
-    ROUND((CAST(Goals_h AS FLOAT) + CAST(Goals_a AS FLOAT)) / (HM.Games + AW.Games), 2) - ROUND((CAST(xG_h AS FLOAT) + CAST(xG_a AS FLOAT)) / (HM.Games + AW.Games), 2) AS XG_OVERPERFORMANCE
+    ROUND(((Goals_h + Goals_a) - (xG_h + xG_a)), 2) AS XG_OVERPERFORMANCE 
 FROM (
 SELECT Home, COUNT(Home) as Games, SUM(Home_Goals) AS Goals_h, SUM(xG_h) AS xG_h
 FROM PL_Fixtures_23_24
@@ -312,7 +312,7 @@ ORDER BY [Goals-23] DESC;
 
 --Have there been changes in the key contributors to the team's attack?
 
---Compare Xhaka, Havertz and Trossard
+--Compare Xhaka AND Havertz
 
 SELECT S23.Player, 
 	ROUND(((Gls-PK)/S23._90s), 2) as NPG_90, 
@@ -325,25 +325,45 @@ SELECT S23.Player,
 	ROUND((P23._1_3/S23._90s), 2) as prG1_3_90,
 	ROUND((P23.PrgDist/S23._90s), 2) as pDistC_90,
 	ROUND((P23.Rec/S23._90s), 2) as pRec_90,
-	ROUND((P23.PrgR/S23._90s), 2) as ppRec_90
+	ROUND((P23.PrgR/S23._90s), 2) as ppRec_90,
+	ROUND((Cmp2/S23._90s), 2) as Comp_Sh,
+	ROUND((Att2/S23._90s), 2) as Att_Sh,
+	ROUND((Cmp3/S23._90s), 2) as Comp_Md,
+	ROUND((Att3/S23._90s), 2) as Att_Md,
+	ROUND((Cmp4/S23._90s), 2) as Comp_Lg,
+	ROUND((Att4/S23._90s), 2) as Att_Lg,
+	ROUND((PPA/S23._90s), 2) as PPA,
+	ROUND((Cmp/S23._90s), 2) as Comp,
+	ROUND((PS23.Att/S23._90s), 2) as Att
 FROM Standard_data_22_23 S23
 JOIN Possession_data_22_23 P23 on S23.Player = P23.Player
+JOIN Passing_data_22_23 PS23 on S23.Player = PS23.Player
 WHERE S23.Player LIKE '%Xhaka'
 UNION
 SELECT S24.Player, 
 	ROUND(((Gls-PK)/S24._90s), 2) as NPG_90, 
-	ROUND((Ast/S24._90s), 2) as Ast_90,
+	ROUND((S24.Ast/S24._90s), 2) as Ast_90,
 	ROUND((npxG/S24._90s), 2) as NPXG_90,
-	ROUND((xAG/S24._90s), 2) as xAst_90,
-	ROUND(((S24.PrgC + PrgP)/S24._90s), 2) as prgA_90,
+	ROUND((S24.xAG/S24._90s), 2) as xAst_90,
+	ROUND(((S24.PrgC + S24.PrgP)/S24._90s), 2) as prgA_90,
 	ROUND((P24.Touches/S24._90s), 2) as Tch_90,
 	ROUND((P24.PrgDist/S24._90s), 2) as pDist_90,
 	ROUND((P24._1_3/S24._90s), 2) as prG1_3_90,
 	ROUND((P24.PrgDist/S24._90s), 2) as pDistC_90,
 	ROUND((P24.Rec/S24._90s), 2) as pRec_90,
-	ROUND((P24.PrgR/S24._90s), 2) as ppRec_90
+	ROUND((P24.PrgR/S24._90s), 2) as ppRec_90,
+	ROUND((Cmp_Short/S24._90s), 2) as Comp_Sh,
+	ROUND((Att_Short/S24._90s), 2) as Att_Sh,
+	ROUND((Cmp_Medium/S24._90s), 2) as Comp_Md,
+	ROUND((Att_Medium/S24._90s), 2) as Att_Md,
+	ROUND((Cmp_Long/S24._90s), 2) as Comp_Lg,
+	ROUND((Att_Long/S24._90s), 2) as Att_Lg,
+	ROUND((PPA/S24._90s), 2) as PPA,
+	ROUND((Cmp/S24._90s), 2) as Comp,
+	ROUND((PS24.Att/S24._90s), 2) as Att
 FROM Standard_data_23_24 S24
 JOIN Possession_data_23_24 P24 on S24.Player = P24.Player
+JOIN Passing_data_23_24 PS24 on S24.Player = PS24.Player
 WHERE S24.Player LIKE 'Kai%';
 
 --Xhaka's numbers remain superior to Havertz in majority of these categories, except non-pen goals/90, non-pen xG/90, carries into the final third and progressive passes received
@@ -424,9 +444,10 @@ GROUP BY Away
 
 --Compared to the rest of the league
 
-SELECT Home as Team, 
+SELECT COUNT(*) OVER (ORDER BY ROUND((CAST(xGA_h AS FLOAT) + CAST(xGA_a AS FLOAT))/38, 2)) AS Rank, Home as Team, 
 	ROUND((CAST(GoalsA_h AS FLOAT) + CAST(GoalsA_a AS FLOAT))/38, 2) AS 'GA/GAME', 
-	ROUND((CAST(xGA_h AS FLOAT) + CAST(xGA_a AS FLOAT))/38, 2) AS 'XGA/GAME'
+	ROUND((CAST(xGA_h AS FLOAT) + CAST(xGA_a AS FLOAT))/38, 2) AS 'XGA/GAME',
+	ROUND(((xGA_h + xGA_a) - (GoalsA_h + GoalsA_a)), 2) AS 'xGA-GA'
 FROM (
 SELECT Home, SUM(Away_Goals) AS GoalsA_h, SUM(xG_a) AS xGA_h
 FROM PL_Fixtures_22_23
@@ -446,7 +467,8 @@ ORDER BY [XGA/GAME];
 
 SELECT COUNT(*) OVER (ORDER BY ROUND((CAST(xGA_h AS FLOAT) + CAST(xGA_a AS FLOAT))/(HM.Games + AW.Games), 2)) AS Rank, Home as Team, 
 	ROUND((CAST(GoalsA_h AS FLOAT) + CAST(GoalsA_a AS FLOAT))/(HM.Games + AW.Games), 2) AS 'GA/GAME', 
-	ROUND((CAST(xGA_h AS FLOAT) + CAST(xGA_a AS FLOAT))/(HM.Games + AW.Games), 2) AS 'XGA/GAME'
+	ROUND((CAST(xGA_h AS FLOAT) + CAST(xGA_a AS FLOAT))/(HM.Games + AW.Games), 2) AS 'XGA/GAME',
+	ROUND(((xGA_h + xGA_a) - (GoalsA_h + GoalsA_a)), 2) AS 'xGA-GA'
 FROM (
 SELECT Home, COUNT(Home) as Games, SUM(Away_Goals) AS GoalsA_h, SUM(xG_a) AS xGA_h
 FROM PL_Fixtures_23_24
@@ -478,7 +500,7 @@ ORDER BY [XGA/GAME];
 --At this stage last season
 SELECT *
 FROM (
-	SELECT '2022/23' as Season, COUNT(CASE WHEN GA < 1 THEN 1 ELSE NULL END) AS CS_After_20_Games, SUM(GA) as GA
+	SELECT '2022/23' as Season, COUNT(CASE WHEN GA < 1 THEN 1 ELSE NULL END)/10.00 AS CS_After_20_Games, SUM(GA)/10.00 as GA
 	FROM (
 		SELECT TOP 20 *
 		FROM fixtures_22_23
@@ -487,7 +509,7 @@ FROM (
 UNION
 SELECT *
 FROM (
-	SELECT '2023/24' as Season, COUNT(CASE WHEN GA < 1 THEN 1 ELSE NULL END) AS CS_After_20_Games, SUM(GA) as GA
+	SELECT '2023/24' as Season, COUNT(CASE WHEN GA < 1 THEN 1 ELSE NULL END)/10.00 AS CS_After_20_Games, SUM(GA)/10.00 as GA
 	FROM (
 		SELECT TOP 20 *
 		FROM fixtures_23_24
@@ -523,35 +545,40 @@ WHERE Home LIKE 'Arsenal' OR Away LIKE 'Arsenal'
 --At this stage last season, according to xG Arsenal should have conceded +1.7 more than they had conceded.
 --On the contrary, this season, Arsenal have conceded -3.7 more than they were expected to concede
 
-SELECT Player, 
+SELECT GK.Player, 
 	ROUND(GA90, 2) AS GA90, 
-	ROUND((CAST(PSxG AS FLOAT)/_90s), 2) as PSXG90, 
-	ROUND(((CAST(PSxG AS FLOAT)/_90s)-GA90), 2) AS PSXG_GA90,
+	ROUND((CAST(PSxG AS FLOAT)/GK._90s), 2) as PSXG90, 
+	ROUND(((CAST(PSxG AS FLOAT)/GK._90s)-GA90), 2) AS PSXG_GA90,
 	ROUND([Save], 2) AS SAVE_PERC, 
-	ROUND((CAST(SoTA AS FLOAT)/_90s), 2) as SOT90, 
+	ROUND((CAST(SoTA AS FLOAT)/GK._90s), 2) as SOT90, 
 	ROUND(PSxG_Sot, 2) AS PSXG_SOT,
 	((CAST(PKsv AS FLOAT)/PKatt)*100) as PKSave_Perc,
-	PSxG, GA
-FROM Gk_data_22_23
-WHERE Player LIKE 'Aaron%'
+	ROUND((CAST(PS.Cmp AS FLOAT)/GK._90s), 2) as PS_Cmp, 
+	ROUND((CAST(PrgDist AS FLOAT)/GK._90s), 2) as PrgDist, Cmp1
+FROM Gk_data_22_23 GK
+JOIN Passing_data_22_23 PS ON GK.Player = PS.Player
+WHERE GK.Player LIKE 'Aaron%'
 UNION
-SELECT Player, 
+SELECT GK.Player, 
 	ROUND(GA90, 2) AS GA90, 
-	ROUND((CAST(PSxG AS FLOAT)/_90s), 2) as PSXG90, 
-	ROUND(((CAST(PSxG AS FLOAT)/_90s)-GA90), 2) AS PSXG_GA90,
+	ROUND((CAST(PSxG AS FLOAT)/GK._90s), 2) as PSXG90, 
+	ROUND(((CAST(PSxG AS FLOAT)/GK._90s)-GA90), 2) AS PSXG_GA90,
 	ROUND([Save], 2) AS SAVE_PERC, 
-	ROUND((CAST(SoTA AS FLOAT)/_90s), 2) as SOT90, 
+	ROUND((CAST(SoTA AS FLOAT)/GK._90s), 2) as SOT90, 
 	ROUND(PSxG_Sot, 2) AS PSXG_SOT,
 	((CAST(PKsv AS FLOAT)/PKatt)*100) as PKSave_Perc,
-	PSxG, GA
-FROM Gk_data_23_24 
-WHERE Player LIKE 'David%';
+	ROUND((CAST(PS.Cmp AS FLOAT)/GK._90s), 2) as PS_Cmp, 
+	ROUND((CAST(PrgDist AS FLOAT)/GK._90s), 2) as PrgDist, Cmp1
+FROM Gk_data_23_24 GK
+JOIN Passing_data_23_24 PS ON GK.Player = PS.Player
+WHERE GK.Player LIKE 'David%';
 
 --Raya is conceding less per game AND is according to post shot xG he is also expected to concede less.
 --However he is conceding 0.2 more than he should per 90. Higher than Ramsdale's 0.08 from last season.
 --Raya also has a save percentage of 61.5%, which is less than the 70.6 Ramsdale managed last season.
 --Raya also faces less shots on target per 90. But the post shot xg (0.3) of each shot target is higher per game than Ramsdale's 0.28
 --Raya has saved 50% of the two penalties he has faced this season. Ramsdale saved 0 penalties last season, despite facing 5.
+--Raya completes more passes/90, the progressive distance of his passes is also higher and he also completes a larger precentage of his passes
 
 
 --Are there noticeable differences in defensive solidity between the two seasons?
@@ -662,7 +689,8 @@ SELECT d23.Player,
 	ROUND((CAST(p23.Rec AS FLOAT) / d23._90s), 2) AS PssRc,
 	ROUND(ps23.Cmp1, 2) AS PssCmp,
 	ROUND((CAST(ps23.PrgP AS FLOAT) / d23._90s), 2) AS PrgPass,
-	ROUND((CAST(p23.PrgC AS FLOAT) / d23._90s), 2) AS PrgCarr
+	ROUND((CAST(p23.PrgC AS FLOAT) / d23._90s), 2) AS PrgCarr,
+	ROUND((CAST(ps23.PrgDist AS FLOAT) / d23._90s), 2) AS PrgDistP
 FROM Defending_data_22_23 d23
 JOIN Possession_data_22_23 p23 ON d23.Player = p23.Player
 JOIN Passing_data_22_23 ps23 ON d23.Player = ps23.Player
@@ -686,7 +714,8 @@ SELECT d24.Player,
 	ROUND((CAST(p24.Rec AS FLOAT) / d24._90s), 2) AS PssRc,
 	ROUND(ps24.Cmp1, 2) AS PssCmp,
 	ROUND((CAST(ps24.PrgP AS FLOAT) / d24._90s), 2) AS PrgPass,
-	ROUND((CAST(p24.PrgC AS FLOAT) / d24._90s), 2) AS PrgCarr
+	ROUND((CAST(p24.PrgC AS FLOAT) / d24._90s), 2) AS PrgCarr,
+	ROUND((CAST(ps24.PrgDist AS FLOAT) / d24._90s), 2) AS PrgDistP
 FROM Defending_data_23_24 d24
 JOIN Possession_data_23_24 p24 ON d24.Player = p24.Player
 JOIN Passing_data_23_24 ps24 ON d24.Player = ps24.Player
@@ -702,34 +731,123 @@ FROM Possession_data_23_24
 --Rice's dribbles per 90 (0.67) this season are almost half of what Partey managed last season (1.27)
 --His dribble success rate is also more than 20% less than what Partey had last season.
 --Rice carries the ball farther/90 (164.38 yards), than Partey(139.38 yards) did last season.
+--Partey's average progressive pass travels further than Rice's does.
+
+
+--Gabriel Progression numbers
+
+SELECT '22/23' AS Season, 
+	ROUND(((S23.PrgC + S23.PrgP)/S23._90s), 2) as prgA_90,
+	ROUND((P23.Touches/S23._90s), 2) as Tch_90,
+	ROUND((P23.PrgDist/S23._90s), 2) as pDistC_90,
+	ROUND((P23._1_3/S23._90s), 2) as prG1_3_90,
+	ROUND((PS23.PrgDist/S23._90s), 2) as pDistP_90,
+	ROUND((P23.Rec/S23._90s), 2) as pRec_90,
+	ROUND((P23.PrgR/S23._90s), 2) as ppRec_90,
+	ROUND((Cmp2/S23._90s), 2) as Comp_Sh,
+	ROUND((Att2/S23._90s), 2) as Att_Sh,
+	ROUND((Cmp3/S23._90s), 2) as Comp_Md,
+	ROUND((Att3/S23._90s), 2) as Att_Md,
+	ROUND((Cmp4/S23._90s), 2) as Comp_Lg,
+	ROUND((Att4/S23._90s), 2) as Att_Lg,
+	ROUND((PPA/S23._90s), 2) as PPA,
+	ROUND((Cmp/S23._90s), 2) as Comp,
+	ROUND((PS23.Att/S23._90s), 2) as Att
+FROM Standard_data_22_23 S23
+JOIN Possession_data_22_23 P23 on S23.Player = P23.Player
+JOIN Passing_data_22_23 PS23 on S23.Player = PS23.Player
+WHERE S23.Player LIKE 'Gabriel%' AND S23.Pos LIKE 'DF'
+UNION
+SELECT '23/24' AS Season, 
+	ROUND(((S24.PrgC + S24.PrgP)/S24._90s), 2) as prgA_90,
+	ROUND((P24.Touches/S24._90s), 2) as Tch_90,
+	ROUND((P24.PrgDist/S24._90s), 2) as pDistC_90,
+	ROUND((P24._1_3/S24._90s), 2) as prG1_3_90,
+	ROUND((PS24.PrgDist/S24._90s), 2) as pDistP_90,
+	ROUND((P24.Rec/S24._90s), 2) as pRec_90,
+	ROUND((P24.PrgR/S24._90s), 2) as ppRec_90,
+	ROUND((Cmp_Short/S24._90s), 2) as Comp_Sh,
+	ROUND((Att_Short/S24._90s), 2) as Att_Sh,
+	ROUND((Cmp_Medium/S24._90s), 2) as Comp_Md,
+	ROUND((Att_Medium/S24._90s), 2) as Att_Md,
+	ROUND((Cmp_Long/S24._90s), 2) as Comp_Lg,
+	ROUND((Att_Long/S24._90s), 2) as Att_Lg,
+	ROUND((PPA/S24._90s), 2) as PPA,
+	ROUND((Cmp/S24._90s), 2) as Comp,
+	ROUND((PS24.Att/S24._90s), 2) as Att
+FROM Standard_data_23_24 S24
+JOIN Possession_data_23_24 P24 on S24.Player = P24.Player
+JOIN Passing_data_23_24 PS24 on S24.Player = PS24.Player
+WHERE S24.Player LIKE 'Gabriel%' AND S24.Pos LIKE 'DF';
+
+--Gabriel is having slighly less touches this season. The average progressive distance of his carries has also reduced a lot, from 144.35 yards to 108.16 yards.
+--The average progressive distance of his passes has also gone down a lot, from 356.78 yards to 300.61 yards.
+--He is also completing slighly less passes
+
 
 --Martinelli Last Season vs This Season
 
-SELECT '22/23' as Season, ROUND(_90s, 2) AS _90S, ROUND((Gls/_90s), 2) AS G90, ROUND(SoT1, 2) AS SoT1,
+SELECT '22/23' as Season, Sh, SoT, ROUND(sh._90s, 2) AS _90S, ROUND((Gls/sh._90s), 2) AS G90, ROUND(SoT1, 2) AS SoT1,
 ROUND(Sh_90, 2) AS Sh_90,
 ROUND(SoT_90, 2) AS SoT_90,
 ROUND(G_Sh, 2) AS G_Sh,
 ROUND(G_SoT, 2) AS G_SoT,
 ROUND(Dist, 2) AS Dist,
-ROUND((xG/_90s), 2) AS xG,
-ROUND((npxG/_90s), 2) AS npxG,
+ROUND((xG/sh._90s), 2) AS xG,
+ROUND((npxG/sh._90s), 2) AS npxG,
 ROUND(npxG_Sh, 2) AS npxG_Sh,
-ROUND(G_xG, 2) AS G_xG
-FROM Shooting_data_22_23
-WHERE Player LIKE '%Martinelli'
+ROUND(G_xG, 2) AS G_xG,
+ROUND((ps.Att/sh._90s), 2) as Attempts,
+ROUND((Succ/sh._90s), 2) as Succ,
+ROUND(ps.Succ1, 2) as DrbScc,
+ROUND((Mid_3rd/sh._90s), 2) as Mid_3rd,
+ROUND((Att_3rd/sh._90s), 2) as Att_3rd,
+ROUND((ps.PrgDist/sh._90s), 2) as Prg,
+ROUND((ps._1_3/sh._90s), 2) as _1_3,
+ROUND((CPA/sh._90s), 2) as CPA,
+ROUND((Rec/sh._90s), 2) as PssRc,
+ROUND((PrgR/sh._90s), 2) as PrgPR,
+ROUND((Ast/sh._90s), 2) as Ast,
+ROUND((xAG/sh._90s), 2) as xAG,
+ROUND((KP/sh._90s), 2) as KP,
+ROUND((pd._1_3/sh._90s), 2) as P_1_3,
+ROUND((PPA/sh._90s), 2) as PPA,
+ROUND((CrsPA/sh._90s), 2) as PrgP
+FROM Shooting_data_22_23 sh
+JOIN Possession_data_22_23 ps ON sh.Player = ps.Player
+JOIN Passing_data_22_23 pd ON pd.Player = sh.Player
+WHERE sh.Player LIKE '%Martinelli'
 UNION
-SELECT '23/24' as Season, ROUND(_90s, 2) AS _90S, ROUND((Gls/_90s), 2) AS G90, ROUND(SoT1, 2) AS SoT1,
+SELECT '23/24' as Season, Sh, SoT, ROUND(sh._90s, 2) AS _90S, ROUND((Gls/sh._90s), 2) AS G90, ROUND(SoT1, 2) AS SoT1,
 ROUND(Sh_90, 2) AS Sh_90,
 ROUND(SoT_90, 2) AS SoT_90,
 ROUND(G_Sh, 2) AS G_Sh,
 ROUND(G_SoT, 2) AS G_SoT,
 ROUND(Dist, 2) AS Dist,
-ROUND((xG/_90s), 2) AS xG,
-ROUND((npxG/_90s), 2) AS npxG,
+ROUND((xG/sh._90s), 2) AS xG,
+ROUND((npxG/sh._90s), 2) AS npxG,
 ROUND(npxG_Sh, 2) AS npxG_Sh,
-ROUND(G_xG, 2) AS G_xG
-FROM Shooting_data_23_24
-WHERE Player LIKE '%Martinelli';
+ROUND(G_xG, 2) AS G_xG,
+ROUND((ps.Att/sh._90s), 2) as Attempts,
+ROUND((Succ/sh._90s), 2) as Succ,
+ROUND(ps.Succ1, 2) as DrbScc,
+ROUND((Mid_3rd/sh._90s), 2) as Mid_3rd,
+ROUND((Att_3rd/sh._90s), 2) as Att_3rd,
+ROUND((ps.PrgDist/sh._90s), 2) as Prg,
+ROUND((ps._1_3/sh._90s), 2) as _1_3,
+ROUND((CPA/sh._90s), 2) as CPA,
+ROUND((Rec/sh._90s), 2) as PssRc,
+ROUND((PrgR/sh._90s), 2) as PrgPR,
+ROUND((Ast/sh._90s), 2) as Ast,
+ROUND((xAG/sh._90s), 2) as xAG,
+ROUND((KP/sh._90s), 2) as KP,
+ROUND((pd._3_Jan/sh._90s), 2) as P_1_3,
+ROUND((PPA/sh._90s), 2) as PPA,
+ROUND((CrsPA/sh._90s), 2) as PrgP
+FROM Shooting_data_23_24 sh
+JOIN Possession_data_23_24 ps ON sh.Player = ps.Player
+JOIN Passing_data_23_24 pd ON pd.Player = sh.Player
+WHERE sh.Player LIKE '%Martinelli';
 
 --Marinelli's Attacking Numbers
 --Goals per 90 has gone down from 0.48/90 to 0.14/90
@@ -739,6 +857,14 @@ WHERE Player LIKE '%Martinelli';
 --Avg Shot distance has also gone up by 0.5 yards
 --npxG per game has also gone down by almost half. From 0.3 to 0.17
 --He is also underperforming his xG by -0.5, while last season he overperformed by +5.7
+--He is also attempting more dribbles, but completing less
+--However, he takes more touches in the atacking third than he did last season.
+--He also progresses the ball farther per game than he did last season.
+--His carries into the penalty area have also increased
+--He receives more passes this season and he also receives more progressive passes.
+--xGA has gone down this season. Key passes remain around the same number
+--Passes into the final third have gone up. Passes into penalty area have also gone up
+
 
 
 --Saka Last Season vs This Season
